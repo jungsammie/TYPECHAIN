@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",//javascript version
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"], //which files are to be included in complie process
+    "exclude": ["node_modules"]
+}
